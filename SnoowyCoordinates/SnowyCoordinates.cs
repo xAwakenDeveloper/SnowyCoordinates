@@ -1,7 +1,8 @@
 ﻿using MSCLoader;
-using UnityEngine;
 using System;
+using System.Globalization;
 using System.Runtime.InteropServices;
+using UnityEngine;
 
 namespace SnowyCoordinates
 {
@@ -233,7 +234,11 @@ namespace SnowyCoordinates
 
         void CopyToClipboard()
         {
-            string text = $"{playerPosition.x}, {playerPosition.y}, {playerPosition.z}";
+            string text =
+                playerPosition.x.ToString("R", CultureInfo.InvariantCulture) + ", " +
+                playerPosition.y.ToString("R", CultureInfo.InvariantCulture) + ", " +
+                playerPosition.z.ToString("R", CultureInfo.InvariantCulture);
+
             IntPtr hGlobal = Marshal.StringToHGlobalUni(text);
 
             if (OpenClipboard(IntPtr.Zero))
@@ -241,6 +246,7 @@ namespace SnowyCoordinates
                 EmptyClipboard();
                 SetClipboardData(CF_UNICODETEXT, hGlobal);
                 CloseClipboard();
+
                 ModConsole.Log($"<color=yellow>[Snowy Coordinates] XYZ copied to clipboard: {text}</color>");
             }
             else
