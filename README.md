@@ -43,10 +43,16 @@
 
 <h1 align="center">Preview</h2>
 
-<p align="center"><strong>Here's a preview of how this mod looks in the game.</strong></p>
+<p align="center"><strong>Here's a preview of how this mod looks in the game:</strong></p>
 
 <p align="center">
   <img src="assets/preview.png" alt="Snowy Coordinates Preview" width="800">
+</p>
+
+<p align="center"><strong>Copying coordinates to clipboard:</strong></p>
+
+<p align="center">
+  <img src="assets/preview2.png" alt="Snowy Coordinates Preview 2" width="800">
 </p>
 
 ---
