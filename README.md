@@ -34,7 +34,7 @@
 <p align="center"><strong>Or you can do it here, through GitHub:</strong></p>
 
 <p align="center">
-1. Download the latest version from <a href="https://github.com/xAwakenDeveloper/SnowyCoordinates/releases">Release</a>.<br> <br>
+1. Download the latest version from <a href="https://github.com/xAwakenDeveloper/Snowy-Coordinates/releases">Release</a>.<br> <br>
 2. Install <a href="https://github.com/piotrulos/MSCModLoader">MSCLoader (For My Winter Car)</a>.<br> <br>
 3. Extract the files into your mods folder.<br> <br>
 4. Launch the game and enjoy the mod!
