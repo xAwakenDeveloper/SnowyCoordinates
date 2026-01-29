@@ -61,7 +61,7 @@
 <h1 align="center">Usage & Restrictions</h2>
 
 <p align="center">
-This mod is for personal use only. Modification, redistribution, or commercial use is strictly prohibited.
+No restrictions, you are free to use, modify or distribute this mod!
 </p>
 
 ---
